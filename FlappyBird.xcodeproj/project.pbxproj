@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAE9B1601F8E3D87003FAD48 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE9B15F1F8E3D87003FAD48 /* AVFoundation.framework */; };
 		CAED1BC71F82505B00362A8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1BC61F82505B00362A8F /* AppDelegate.swift */; };
 		CAED1BC91F82505B00362A8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1BC81F82505B00362A8F /* ViewController.swift */; };
 		CAED1BCC1F82505B00362A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAED1BCA1F82505B00362A8F /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CAE9B15F1F8E3D87003FAD48 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CAED1BC31F82505B00362A8F /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAED1BC61F82505B00362A8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAED1BC81F82505B00362A8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE9B1601F8E3D87003FAD48 /* AVFoundation.framework in Frameworks */,
 				CAED1BF61F8250F700362A8F /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +138,7 @@
 		CAED1BF41F8250F700362A8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAE9B15F1F8E3D87003FAD48 /* AVFoundation.framework */,
 				CAED1BF51F8250F700362A8F /* SpriteKit.framework */,
 			);
 			name = Frameworks;
@@ -530,6 +534,7 @@
 				CAED1BED1F82505B00362A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAED1BEE1F82505B00362A8F /* Build configuration list for PBXNativeTarget "FlappyBirdTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +543,7 @@
 				CAED1BF01F82505B00362A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAED1BF11F82505B00362A8F /* Build configuration list for PBXNativeTarget "FlappyBirdUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +552,7 @@
 				CAED1BF31F82505B00362A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
